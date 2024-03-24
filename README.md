@@ -1,1 +1,1 @@
-# cp-template
+# Competitive Programming Template
