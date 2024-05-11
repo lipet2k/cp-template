@@ -4,9 +4,24 @@
 #include <algorithm>
 #include <iomanip>
 #include <math.h>
+#include<set>
 
 using namespace std;
 
+typedef long long ll;
+
+// Pairs
+typedef pair<int, int> pi;
+
+// Vectors
+typedef vector<int> vi;
+
+//Macros
+#define F first
+#define E end
+#define PB push_back
+#define SQ(a) (a)*(a)
+#define REP(i, a, b) for (int i = a, i < b; ++i)
 /**
  * Sieve of Eratosthenes 
  * Time Complexity: O(n log log n)
