@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <math.h>
 #include <set>
+#include <cctype>
 
 using namespace std;
 

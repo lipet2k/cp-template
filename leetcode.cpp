@@ -5,6 +5,7 @@
 #include <set>
 #include <map>
 #include <algorithm>
+#include <cctype>
 
 using namespace std;
 
