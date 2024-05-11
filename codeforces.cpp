@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <iomanip>
 #include <math.h>
-#include<set>
+#include <set>
 
 using namespace std;
 
@@ -18,6 +18,7 @@ typedef vector<int> vi;
 
 //Macros
 #define F first
+#define S second
 #define E end
 #define PB push_back
 #define SQ(a) (a)*(a)

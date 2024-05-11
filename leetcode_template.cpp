@@ -4,6 +4,7 @@
 #include <math.h>
 #include <set>
 #include <map>
+#include <algorithm>
 
 using namespace std;
 
@@ -22,21 +23,3 @@ typedef pair<int, int> pi;
 #define REP(i, a, b) for (int i = a; i <= b; ++i)
 
 #define SQ(a) (a)*(a)
-
-void solve() {
-}
-
-int main() {
-        ios::sync_with_stdio(0);
-        cin.tie(0);
-
-        int n;
-        cin >> n;
-
-        while(--n)
-                solve();
-
-        return 0;
-}
-
-
