@@ -9,6 +9,7 @@
 #include <utility>
 #include <cmath>
 #include <array>
+#include <bitset>
 
 using namespace std;
 
