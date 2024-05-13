@@ -7,10 +7,13 @@
 #include <set>
 #include <cctype>
 #include <utility>
+#include <cmath>
+#include <array>
 
 using namespace std;
 
 typedef long long ll;
+typedef long double ld;
 
 // Pairs
 typedef pair<int, int> pi;
@@ -23,8 +26,12 @@ typedef vector<int> vi;
 #define S second
 #define E end
 #define PB push_back
-#define SQ(a) (a)*(a)
-#define REP(i, a, b) for (int i = a, i < b; ++i)
+#define FOR(i, a, b) for (int i = a, i < b; ++i)
+
+// Constants
+const ld PI = acos((ld)-1);
+const ll BIG = 1e18;
+
 /**
  * Sieve of Eratosthenes 
  * Time Complexity: O(n log log n)
@@ -51,6 +58,7 @@ void solve() {
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
+    // Read the Problem!!!!
 
     solve();
 
@@ -61,5 +69,5 @@ int main() {
  * READ QUESTION STATEMENTS THOROUGHLY
  * Remember edge cases
  * Think simple (sometimes hardcode scenarios)
- * Look at Input and Output bounds
+ * Look at Input and Output bounds (integer overflow, array bounds)
 */
