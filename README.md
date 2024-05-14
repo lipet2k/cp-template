@@ -6,3 +6,6 @@ Sorting Algorithms
 
 Primes
 - Sieve of Eratosthenes
+
+Search
+- Binary Search
