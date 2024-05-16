@@ -9,3 +9,6 @@ Primes
 
 Search
 - Binary Search
+
+Notes:
+- The sizeof() operator seems to be buggy, look more into this...
