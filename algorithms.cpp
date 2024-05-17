@@ -108,10 +108,10 @@ vector<bool> sieve(int n)
         return is_prime;
 }
 
-int bin_search(int arr[], int target) {
+int bin_search(int arr, int target, int n) {
 
     int left = 0;
-    int right = sizeof(arr) - 1;
+    int right = n - 1;
 
     while (left <= right) {
         int mid = left + (right - left) / 2;
@@ -119,15 +119,31 @@ int bin_search(int arr[], int target) {
         if (arr[mid] == target)
             return mid;
 
-        if (arr[mid] < target) {
+        if (arr[mid] < target)
             left = mid + 1;
-        } else {
+        else
             right = mid - 1;
-        }
     }
     return -1;
 }
 
+// Majority voting algorithm if the majority element is
+// more than floor(n/2) occurances
+int boyer_moore(int arr[]) {
+    int count = 0;
+    int candidate = 0;
+
+    for (int num: arr) {
+        if (count == 0)
+            candidate = num;
+
+        if (num == candidate)
+            count++;
+        else
+            count--;
+    }
+    return candidate;
+}
 
 
 
