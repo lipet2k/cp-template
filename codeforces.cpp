@@ -14,14 +14,14 @@
 
 using namespace std;
 
-typedef long long ll;
-typedef long double ld;
+using long long ll;
+using long double ld;
 
 // Pairs
-typedef pair<int, int> pi;
+using pair<int, int> pi;
 
 // Vectors
-typedef vector<int> vi;
+using vector<int> vi;
 
 // Macros
 #define F first
