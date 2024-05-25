@@ -145,6 +145,14 @@ int boyer_moore(int arr[]) {
     return candidate;
 }
 
+int gcd(int a, int b) {
+    while (b) {
+        a %= b;
+        swap(a, b);
+    }
+    return a;
+}
+
 
 
 int main()
